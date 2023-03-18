@@ -47,7 +47,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
 
-    - name: Setup AWS SAM CLI
+    - name: Setup AWS SAM CLI 
       uses: aws-actions/setup-sam@v0
 
     - name: Download Layer Artifact
